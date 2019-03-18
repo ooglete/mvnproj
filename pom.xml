@@ -31,14 +31,14 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>Jfrog</id>
             <name>Internal Releases</name>
-            <url>http://13.233.110.160:8081/repository/sample_release/</url>
+            <url>http://35.237.132.223:8081/artifactory/list/jenkins-integration/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>Jfrog</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://13.233.110.160:8081/repository/Sample_snapshot/</url>
+            <url>http://35.237.132.223:8081/artifactory/list/jenkins-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
